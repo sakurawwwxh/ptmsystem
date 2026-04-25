@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(speedtest-cli *)",
+      "Bash(curl *)",
+      "Bash(where claude *)",
+      "Bash(claude *)",
+      "Bash(findstr \"timeout\\\\|model\\\\|concurrency\")",
+      "Bash(tasklist)",
+      "Bash(findstr \"node\\\\|python\\\\|java\")",
+      "Bash(where node *)",
+      "Bash(findstr \"node\")",
+      "Bash(ping *)",
+      "Bash(mvn spring-boot:run)",
+      "Bash(pkill -f \"java.*auth\")",
+      "Bash(pkill -f \"vite\")",
+      "Bash(npm run *)",
+      "Bash(taskkill //F //PID 87632 sleep 2 cd D:/claude-work/frontend)",
+      "Bash(pkill -f \"vite\" rm -rf D:/claude-work/frontend/node_modules/.vite sleep 2 cd D:/claude-work/frontend)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //IM java.exe)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(mvn compile *)",
+      "Bash(mvn clean *)",
+      "Bash(taskkill //F //PID 99624)",
+      "Bash(mvn spring-boot:run -q)",
+      "Bash(taskkill //F //PID 4620)",
+      "Bash(npm install *)",
+      "Bash(npm uninstall *)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebFetch(domain:minimax-algeng-chat-tts.oss-cn-wulanchabu.aliyuncs.com)",
+      "Bash(git config *)"
+    ]
+  }
+}
