@@ -1,5 +1,5 @@
 .mcp.json
-.claude/settings.local.json
+.claude/
 node_modules/
 dist/
 target/
