@@ -5,3 +5,4 @@ dist/
 target/
 .env
 *.log
+src/src/main/resources/application.properties
